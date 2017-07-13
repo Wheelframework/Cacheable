@@ -1,5 +1,5 @@
 {
-    "name": "phpwheelframework/cacheable",
+    "name": "wheel/cacheable",
     "description": "PHP cache agent.",
     "keywords": ["component"],
     "homepage": "https://www.phpwheelframework.com",
@@ -18,10 +18,10 @@
     },
     "autoload": {
         "psr-4": { 
-            "Wheel\\Cacheable\\": "" 
+            "Wheel\\Cacheable\\": "src/Wheel/Cacheable" 
         },
         "exclude-from-classmap": [
-            "/Tests/"
+            "tests/"
         ]
     }
 }
